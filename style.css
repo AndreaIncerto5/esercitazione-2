@@ -1,0 +1,113 @@
+.CustomTitle{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: Merryweather;
+   
+}
+.paragrafo{
+margin-top: 50px;
+margin-left: 120px;
+font-family: 'Courier New', Courier, monospace;
+
+}
+.Button{
+position: relative;
+margin-top: 50px;
+margin-left: 120px;
+margin-right: 1050px;
+background-color: black;
+text-decoration: color(255 255 255);
+padding: 10px 30px;
+font-size: 33px;
+text-decoration: color( 255 255 255);
+color: white;
+width: 308px;
+height: 78px;
+display:  block;
+
+
+}
+
+.Button a{
+    font-size: 33px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    
+}
+.Button a::after{
+content: "";
+height: 34px;
+width: 28px;
+background-image: url(IMMAGES/arrow.svg);
+display: block;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+
+
+
+
+
+}
+header{
+
+background-color: rgb(215, 250, 254);
+border: 1px solid black;
+padding-bottom: 30px;
+
+}
+.Button:hover{
+
+background-color: rgb(147, 145, 145);
+
+}
+
+ul{
+    counter-reset: listItem;
+    list-style: none;
+  }
+  
+  li:before {
+    content: ".0" counter(listItem);
+    counter-increment: listItem;
+    font-family: Marryweather;
+    font-size: 70px;
+  }
+  
+  footer{
+
+
+  }
+.link{
+ color: red;
+
+
+
+
+}
+
+.righe{
+width: 1200px;
+
+
+}
+
+.testo{
+  max-width: 1299px;
+  font-family: marryweather;
+  font-size: 22px;
+}
+
+.footer{
+height: 314px;
+width: 1600px;
+}
+.footertext{
+  margin-right: 1050px;
+font-size: 22;
+font-family: Marryweather;
+margin-left: 20px;
+
+
+}
